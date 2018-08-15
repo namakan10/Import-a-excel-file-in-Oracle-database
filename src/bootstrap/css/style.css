@@ -1,0 +1,29 @@
+#marge{
+    margin-top: 200px;
+    margin-left: 325px;
+}
+
+#label{
+    margin-right: 10px;
+}
+
+#taille{
+    width: 580px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#form{
+    width: 400px;
+    margin-left: 170px;
+}
+
+.image{
+    width: 1000px;
+    margin-left: 20px;
+}
+
+.imgn{
+    width: 10px;
+    image-resolution: snap;
+}

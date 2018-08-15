@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edbf715c-a4f9-40ae-822a-215e288aed18" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <executablePath>composer</executablePath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="insert_grh_releve_activite.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/query/insert/insert_grh_releve_activite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="44" column="69" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="69" />
+              <folding>
+                <marker date="1534242432368" expanded="true" signature="371:494" ph="SELECT * FRO... GRH_INTERVENANT" />
+                <marker date="1534242432368" expanded="true" signature="744:780" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+                <marker date="1534242432368" expanded="true" signature="1067:1137" ph="SELECT MAX(D... GRH_RELEVE_ACTIVITE_TEMP1" />
+                <marker date="1534242432368" expanded="true" signature="1903:2006" ph="SELECT NO_PR... GRH_RELEVE_ACTIVITE_TEMP1" />
+                <marker date="1534242432368" expanded="true" signature="2577:2704" ph="SELECT MAX(N... GRH_RELEVE_ACTIVITE" />
+                <marker date="1534242432368" expanded="true" signature="2811:2943" ph="SELECT MAX(N... GRH_RELEVE_ACTIVITE_TEMP" />
+                <marker date="1534242432368" expanded="true" signature="4250:4560" ph="INSERT INTO GRH_RELEVE_ACTIVITE_TEMP... " />
+                <marker date="1534242432368" expanded="true" signature="5027:5337" ph="INSERT INTO GRH_RELEVE_ACTIVITE_TEMP... " />
+                <marker date="1534242432368" expanded="true" signature="5726:5762" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annuler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annuler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <marker date="1533911415093" expanded="true" signature="636:666" ph="DELETE FROM GRH_RELEVE_GT_TEMP... " />
+                <marker date="1533911415093" expanded="true" signature="688:721" ph="DELETE FROM GRH_RELEVE_HEURE_TEMP... " />
+                <marker date="1533911415093" expanded="true" signature="743:779" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert_grh_releve_gt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/query/insert/insert_grh_releve_gt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <marker date="1534242432321" expanded="true" signature="115:150" ph="SELECT * FRO... GRH_RELEVE_HEURE_TEMP" />
+                <marker date="1534242432321" expanded="true" signature="115:166" ph="SELECT * FRO... GRH_RELEVE_HEURE_TEMP" />
+                <marker date="1534242432321" expanded="true" signature="2599:2816" ph="INSERT INTO GRH_RELEVE_GT_TEMP... " />
+                <marker date="1534242432321" expanded="true" signature="3786:4003" ph="INSERT INTO GRH_RELEVE_GT_TEMP... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import_sql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/import_sql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="51" column="90" lean-forward="false" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+              <folding>
+                <marker date="1534242992918" expanded="true" signature="885:976" ph="SELECT * FRO... GRH_PERSONNE" />
+                <marker date="1534242992918" expanded="true" signature="885:992" ph="SELECT * FRO... GRH_PERSONNE" />
+                <marker date="1534242992918" expanded="true" signature="2033:2063" ph="DELETE FROM GRH_RELEVE_GT_TEMP... " />
+                <marker date="1534242992918" expanded="true" signature="2092:2125" ph="DELETE FROM GRH_RELEVE_HEURE_TEMP... " />
+                <marker date="1534242992918" expanded="true" signature="2154:2190" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+                <marker date="1534242992918" expanded="true" signature="2329:2422" ph="SELECT * FRO... GRH_PERSONNE" />
+                <marker date="1534242992918" expanded="true" signature="4155:4170" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="final_insert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/query/insert/final_insert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <folding>
+                <marker date="1534240703976" expanded="true" signature="143:178" ph="SELECT * FRO... GRH_RELEVE_HEURE_TEMP" />
+                <marker date="1534240703976" expanded="true" signature="599:937" ph="INSERT INTO GRH_RELEVE_HEURE_TEMP1... " />
+                <marker date="1534240703976" expanded="true" signature="964:997" ph="DELETE FROM GRH_RELEVE_HEURE_TEMP... " />
+                <marker date="1534240703976" expanded="true" signature="1070:1108" ph="SELECT * FRO... GRH_RELEVE_ACTIVITE_TEMP" />
+                <marker date="1534240703976" expanded="true" signature="1879:2146" ph="INSERT INTO GRH_RELEVE_ACTIVITE_TEMP1... " />
+                <marker date="1534240703976" expanded="true" signature="2174:2210" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extraction_data.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/query/insert/extraction_data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1607">
+              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding>
+                <marker date="1534247379583" expanded="true" signature="439:487" ph="SELECT to_da... DUAL" />
+                <marker date="1534247379583" expanded="true" signature="585:653" ph="SELECT to_ch... dual" />
+                <marker date="1534247379583" expanded="true" signature="1057:1063" ph="SELECT DISTI... GRH_RELEVE_HEURE_TEMP" />
+                <marker date="1534247379583" expanded="true" signature="1057:1083" ph="SELECT * FRO... GRH_AADDA001" />
+                <marker date="1534247379583" expanded="true" signature="1232:1258" ph="SELECT * FRO... GRH_AMIOS001" />
+                <marker date="1534247379583" expanded="true" signature="2033:2065" ph="SELECT * FRO... GRH_ADMINISTRATION" />
+                <marker date="1534247379583" expanded="true" signature="2218:2245" ph="SELECT * FRO... GRH_TECHNIQUE" />
+                <marker date="1534247379583" expanded="true" signature="2432:2555" ph="SELECT * FRO... GRH_INTERVENANT" />
+                <marker date="1534247379583" expanded="true" signature="2776:2899" ph="SELECT * FRO... GRH_INTERVENANT" />
+                <marker date="1534247379583" expanded="true" signature="3069:3200" ph="SELECT * FRO... GRH_INTERVENANT" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>modif</find>
+      <find>update</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\Import_database</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Traitement.php" />
+        <option value="$PROJECT_DIR$/Index.php" />
+        <option value="$PROJECT_DIR$/Import.php" />
+        <option value="$PROJECT_DIR$/dashboard.php" />
+        <option value="$PROJECT_DIR$/datagridview.php" />
+        <option value="$PROJECT_DIR$/css/style_import.css" />
+        <option value="$PROJECT_DIR$/traitement.php" />
+        <option value="$PROJECT_DIR$/modification.php" />
+        <option value="$PROJECT_DIR$/traitement_login.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/nav_bar.php" />
+        <option value="$PROJECT_DIR$/modif.php" />
+        <option value="$PROJECT_DIR$/suppression.php" />
+        <option value="$PROJECT_DIR$/inser_all.php" />
+        <option value="$PROJECT_DIR$/entete-modification.php" />
+        <option value="$PROJECT_DIR$/succes_import_redirect.html" />
+        <option value="$PROJECT_DIR$/succes_import_redirect.php" />
+        <option value="$PROJECT_DIR$/traitement_sql.php" />
+        <option value="$PROJECT_DIR$/src/query/traitement_sql.php" />
+        <option value="$PROJECT_DIR$/src/query/traitement/convert.php" />
+        <option value="$PROJECT_DIR$/src/query/convert.php" />
+        <option value="$PROJECT_DIR$/src/query/import_sql.php" />
+        <option value="$PROJECT_DIR$/query/import_sql.php" />
+        <option value="$PROJECT_DIR$/web/import.php" />
+        <option value="$PROJECT_DIR$/web/import_sql.php" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/src/traitement/convert.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/convert.php" />
+        <option value="$PROJECT_DIR$/authentification_login.php" />
+        <option value="$PROJECT_DIR$/src/view/nav_bar.php" />
+        <option value="$PROJECT_DIR$/extraction_data.php" />
+        <option value="$PROJECT_DIR$/insert_grh_releve_heure.php" />
+        <option value="$PROJECT_DIR$/insert_grh_releve_activite.php" />
+        <option value="$PROJECT_DIR$/insert_grh_releve_gt.php" />
+        <option value="$PROJECT_DIR$/src/bootstrap/css/style.css" />
+        <option value="$PROJECT_DIR$/edit_profil.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/view/entete-modification.php" />
+        <option value="$PROJECT_DIR$/src/query/modification/modification.php" />
+        <option value="$PROJECT_DIR$/import.php" />
+        <option value="$PROJECT_DIR$/annuler.php" />
+        <option value="$PROJECT_DIR$/src/traitement/authentification_login.php" />
+        <option value="$PROJECT_DIR$/src/traitement/update_login.php" />
+        <option value="$PROJECT_DIR$/src/query/insert/final_insert.php" />
+        <option value="$PROJECT_DIR$/src/query/insert/insert_grh_releve_gt.php" />
+        <option value="$PROJECT_DIR$/src/query/insert/insert_grh_releve_heure.php" />
+        <option value="$PROJECT_DIR$/src/query/insert/insert_grh_releve_activite.php" />
+        <option value="$PROJECT_DIR$/import_sql.php" />
+        <option value="$PROJECT_DIR$/src/query/insert/extraction_data.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="6f4e4b5b-6b3f-4eb3-b2ec-ad590e0cd524" name="Apache" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP on Xampp" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Import_database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Import_database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Import_database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Import_database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Import_database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Import_database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="query" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Import_database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Import_database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="query" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="insert" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Import_database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Import_database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="query" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modification" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Import_database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Import_database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="traitement" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet_GDSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/Import_database/import_sql.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Import_database\src\query" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Import_database" />
+      <recent name="C:\xampp\htdocs\Import_database\src\query\modification" />
+      <recent name="C:\xampp\htdocs\Import_database\src\query\insert" />
+      <recent name="C:\xampp\htdocs\Import_database\src\traitement" />
+      <recent name="C:\xampp\htdocs\Import_database\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Web Page.Weblauncher">
+    <configuration name="datagridview.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Import_database/datagridview.php" />
+    <configuration name="Import.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Import.php" />
+    <configuration name="Weblauncher" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Apache" start_url="/Import_database" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Page.Weblauncher" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.datagridview.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.Import.php" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.datagridview.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.Import.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edbf715c-a4f9-40ae-822a-215e288aed18" name="Default" comment="" />
+      <created>1523612523522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523612523522</updated>
+      <workItem from="1523612524999" duration="2897000" />
+      <workItem from="1523620033534" duration="382000" />
+      <workItem from="1523651882868" duration="13000" />
+      <workItem from="1523783972715" duration="3718000" />
+      <workItem from="1523798816091" duration="13000" />
+      <workItem from="1523799226680" duration="4000" />
+      <workItem from="1523799235740" duration="8681000" />
+      <workItem from="1523822782961" duration="5964000" />
+      <workItem from="1523860868846" duration="700000" />
+      <workItem from="1523868311807" duration="2169000" />
+      <workItem from="1523871377348" duration="885000" />
+      <workItem from="1523873591084" duration="2809000" />
+      <workItem from="1523877909572" duration="12095000" />
+      <workItem from="1523952883105" duration="12182000" />
+      <workItem from="1524039755391" duration="1087000" />
+      <workItem from="1524043584114" duration="408000" />
+      <workItem from="1524046734392" duration="648000" />
+      <workItem from="1524048510228" duration="7918000" />
+      <workItem from="1524148500810" duration="7614000" />
+      <workItem from="1524168305222" duration="3909000" />
+      <workItem from="1524211831465" duration="6431000" />
+      <workItem from="1524342271913" duration="5000" />
+      <workItem from="1524425428289" duration="8396000" />
+      <workItem from="1524473749224" duration="877000" />
+      <workItem from="1524522423471" duration="508000" />
+      <workItem from="1524523571911" duration="200000" />
+      <workItem from="1524565176202" duration="2788000" />
+      <workItem from="1524571542614" duration="442000" />
+      <workItem from="1524574852957" duration="1141000" />
+      <workItem from="1524579149836" duration="1298000" />
+      <workItem from="1524597900603" duration="240000" />
+      <workItem from="1524644893641" duration="8000" />
+      <workItem from="1524646889796" duration="25000" />
+      <workItem from="1524652138682" duration="751000" />
+      <workItem from="1524669514303" duration="2572000" />
+      <workItem from="1524816104896" duration="1718000" />
+      <workItem from="1524829319023" duration="538000" />
+      <workItem from="1525082328531" duration="1240000" />
+      <workItem from="1525333777747" duration="3172000" />
+      <workItem from="1525684728531" duration="1529000" />
+      <workItem from="1525692123216" duration="2918000" />
+      <workItem from="1525702570731" duration="1357000" />
+      <workItem from="1526893034359" duration="1606000" />
+      <workItem from="1527492252017" duration="720000" />
+      <workItem from="1527853600156" duration="1007000" />
+      <workItem from="1527860587308" duration="23000" />
+      <workItem from="1527881488385" duration="1958000" />
+      <workItem from="1527929712112" duration="1182000" />
+      <workItem from="1528024314224" duration="4451000" />
+      <workItem from="1528123312890" duration="741000" />
+      <workItem from="1528125591899" duration="1701000" />
+      <workItem from="1528195532552" duration="2522000" />
+      <workItem from="1528280225137" duration="7615000" />
+      <workItem from="1528362262710" duration="174000" />
+      <workItem from="1528662387891" duration="2762000" />
+      <workItem from="1529919014386" duration="13817000" />
+      <workItem from="1529941485085" duration="1062000" />
+      <workItem from="1529960592913" duration="4995000" />
+      <workItem from="1530005002898" duration="20723000" />
+      <workItem from="1530088735474" duration="21151000" />
+      <workItem from="1530174041258" duration="6498000" />
+      <workItem from="1530197023108" duration="6049000" />
+      <workItem from="1530259516781" duration="15935000" />
+      <workItem from="1530693507512" duration="15177000" />
+      <workItem from="1530776546342" duration="15683000" />
+      <workItem from="1530786209092" duration="3843000" />
+      <workItem from="1530791582875" duration="3001000" />
+      <workItem from="1531125929520" duration="6515000" />
+      <workItem from="1531308158769" duration="393000" />
+      <workItem from="1531733822434" duration="77000" />
+      <workItem from="1531749524393" duration="4376000" />
+      <workItem from="1532710315801" duration="10000" />
+      <workItem from="1532724818696" duration="65000" />
+      <workItem from="1532813513855" duration="223000" />
+      <workItem from="1532953370334" duration="471000" />
+      <workItem from="1533023748813" duration="14326000" />
+      <workItem from="1533112490924" duration="3462000" />
+      <workItem from="1533542901026" duration="6279000" />
+      <workItem from="1533552302894" duration="3002000" />
+      <workItem from="1533587208048" duration="74000" />
+      <workItem from="1533717351623" duration="18108000" />
+      <workItem from="1533820313412" duration="860000" />
+      <workItem from="1533845689922" duration="4500000" />
+      <workItem from="1533889747416" duration="14194000" />
+      <workItem from="1533986907730" duration="398000" />
+      <workItem from="1534234862926" duration="9999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="356112000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19407895" sideWeight="0.5060514" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19407895" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagridview.php" />
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="95" lean-forward="false" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagridview.php" />
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/PHPExcel/Classes/PHPExcel.php" />
+    <entry file="file://$PROJECT_DIR$/datagridview.php" />
+    <entry file="file://$PROJECT_DIR$/src/query/modification/modification.php" />
+    <entry file="file://$PROJECT_DIR$/dashboard.php" />
+    <entry file="file://$PROJECT_DIR$/traitement.php" />
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/css/style_import.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/IReader.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/IWriter.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="766" column="9" lean-forward="false" selection-start-line="766" selection-start-column="9" selection-end-line="766" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Iterator.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="413" column="20" lean-forward="false" selection-start-line="413" selection-start-column="20" selection-end-line="413" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insert_all" />
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php" />
+    <entry file="file://$PROJECT_DIR$/succes_import_redirect.php" />
+    <entry file="file://$PROJECT_DIR$/convert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/modification/suppression.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/box/spout/src/Spout/Reader/ReaderFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/nav_bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="74" lean-forward="false" selection-start-line="68" selection-start-column="15" selection-end-line="69" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1579">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annuler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1533911415093" expanded="true" signature="636:666" ph="DELETE FROM GRH_RELEVE_GT_TEMP... " />
+            <marker date="1533911415093" expanded="true" signature="688:721" ph="DELETE FROM GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1533911415093" expanded="true" signature="743:779" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/traitement/update_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+          <folding>
+            <marker date="1534236878485" expanded="true" signature="752:839" ph="UPDATE GRH_EXPORT_USERS... " />
+            <marker date="1534236878485" expanded="true" signature="1510:1579" ph="UPDATE GRH_EXPORT_USERS... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/traitement/authentification_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="66" />
+          <folding>
+            <marker date="1534236671265" expanded="true" signature="636:681" ph="SELECT * FRO... GRH_EXPORT_USERS" />
+            <marker date="1534236671265" expanded="true" signature="636:706" ph="SELECT * FRO... users" />
+            <marker date="1534236671265" expanded="true" signature="636:713" ph="SELECT * FRO... GRH_EXPORT_USERS" />
+            <marker date="1534236671265" expanded="true" signature="636:717" ph="SELECT * FRO... GRH_EXPORT_USERS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/modification/modification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2612">
+          <caret line="168" column="9" lean-forward="false" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+          <folding>
+            <marker date="1533850307294" expanded="true" signature="359:406" ph="SELECT to_da... DUAL" />
+            <marker date="1533850307294" expanded="true" signature="567:633" ph="SELECT to_ch... dual" />
+            <marker date="1533850307294" expanded="true" signature="744:820" ph="UPDATE GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="744:832" ph="UPDATE GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="1026:1117" ph="UPDATE GRH_RELEVE_ACTIVITE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="1572:1662" ph="SELECT * FRO... GRH_INTERVENANT" />
+            <marker date="1533850307294" expanded="true" signature="1776:1844" ph="UPDATE GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="2032:2103" ph="UPDATE GRH_RELEVE_ACTIVITE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="2650:2716" ph="UPDATE GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="2884:2953" ph="UPDATE GRH_RELEVE_ACTIVITE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="3299:3374" ph="UPDATE GRH_RELEVE_ACTIVITE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="3768:3814" ph="SELECT HSUPP... GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1533850307294" expanded="true" signature="3768:3826" ph="SELECT HSUPP... GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1533850307294" expanded="true" signature="4014:4079" ph="UPDATE GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="4269:4336" ph="UPDATE GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="4838:4883" ph="SELECT HREG GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1533850307294" expanded="true" signature="4838:4895" ph="SELECT HREG GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1533850307294" expanded="true" signature="5061:5127" ph="UPDATE GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1533850307294" expanded="true" signature="5295:5362" ph="UPDATE GRH_RELEVE_HEURE_TEMP... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/entete-modification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/insert/insert_grh_releve_heure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-723">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1534242432258" expanded="true" signature="32:70" ph="SELECT * FRO... GRH_RELEVE_ACTIVITE_TEMP" />
+            <marker date="1534242432258" expanded="true" signature="528:651" ph="SELECT * FRO... GRH_INTERVENANT" />
+            <marker date="1534242432258" expanded="true" signature="1434:1501" ph="SELECT MAX(D... GRH_RELEVE_HEURE" />
+            <marker date="1534242432258" expanded="true" signature="1839:2003" ph="SELECT MAX(N... GRH_RELEVE_HEURE" />
+            <marker date="1534242432258" expanded="true" signature="2114:2283" ph="SELECT MAX(N... GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1534242432258" expanded="true" signature="2951:3038" ph="SELECT NO_PR... GRH_RELEVE_HEURE" />
+            <marker date="1534242432258" expanded="true" signature="3812:4166" ph="INSERT INTO GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1534242432258" expanded="true" signature="4585:4941" ph="INSERT INTO GRH_RELEVE_HEURE_TEMP... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/insert/insert_grh_releve_activite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="44" column="69" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="69" />
+          <folding>
+            <marker date="1534242432368" expanded="true" signature="371:494" ph="SELECT * FRO... GRH_INTERVENANT" />
+            <marker date="1534242432368" expanded="true" signature="744:780" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+            <marker date="1534242432368" expanded="true" signature="1067:1137" ph="SELECT MAX(D... GRH_RELEVE_ACTIVITE_TEMP1" />
+            <marker date="1534242432368" expanded="true" signature="1903:2006" ph="SELECT NO_PR... GRH_RELEVE_ACTIVITE_TEMP1" />
+            <marker date="1534242432368" expanded="true" signature="2577:2704" ph="SELECT MAX(N... GRH_RELEVE_ACTIVITE" />
+            <marker date="1534242432368" expanded="true" signature="2811:2943" ph="SELECT MAX(N... GRH_RELEVE_ACTIVITE_TEMP" />
+            <marker date="1534242432368" expanded="true" signature="4250:4560" ph="INSERT INTO GRH_RELEVE_ACTIVITE_TEMP... " />
+            <marker date="1534242432368" expanded="true" signature="5027:5337" ph="INSERT INTO GRH_RELEVE_ACTIVITE_TEMP... " />
+            <marker date="1534242432368" expanded="true" signature="5726:5762" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/insert/insert_grh_releve_gt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <marker date="1534242432321" expanded="true" signature="115:150" ph="SELECT * FRO... GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1534242432321" expanded="true" signature="115:166" ph="SELECT * FRO... GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1534242432321" expanded="true" signature="2599:2816" ph="INSERT INTO GRH_RELEVE_GT_TEMP... " />
+            <marker date="1534242432321" expanded="true" signature="3786:4003" ph="INSERT INTO GRH_RELEVE_GT_TEMP... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import_sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="51" column="90" lean-forward="false" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+          <folding>
+            <marker date="1534242992918" expanded="true" signature="885:976" ph="SELECT * FRO... GRH_PERSONNE" />
+            <marker date="1534242992918" expanded="true" signature="885:992" ph="SELECT * FRO... GRH_PERSONNE" />
+            <marker date="1534242992918" expanded="true" signature="2033:2063" ph="DELETE FROM GRH_RELEVE_GT_TEMP... " />
+            <marker date="1534242992918" expanded="true" signature="2092:2125" ph="DELETE FROM GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1534242992918" expanded="true" signature="2154:2190" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+            <marker date="1534242992918" expanded="true" signature="2329:2422" ph="SELECT * FRO... GRH_PERSONNE" />
+            <marker date="1534242992918" expanded="true" signature="4155:4170" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/insert/final_insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <marker date="1534240703976" expanded="true" signature="143:178" ph="SELECT * FRO... GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1534240703976" expanded="true" signature="599:937" ph="INSERT INTO GRH_RELEVE_HEURE_TEMP1... " />
+            <marker date="1534240703976" expanded="true" signature="964:997" ph="DELETE FROM GRH_RELEVE_HEURE_TEMP... " />
+            <marker date="1534240703976" expanded="true" signature="1070:1108" ph="SELECT * FRO... GRH_RELEVE_ACTIVITE_TEMP" />
+            <marker date="1534240703976" expanded="true" signature="1879:2146" ph="INSERT INTO GRH_RELEVE_ACTIVITE_TEMP1... " />
+            <marker date="1534240703976" expanded="true" signature="2174:2210" ph="DELETE FROM GRH_RELEVE_ACTIVITE_TEMP... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/insert/extraction_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1607">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <marker date="1534247379583" expanded="true" signature="439:487" ph="SELECT to_da... DUAL" />
+            <marker date="1534247379583" expanded="true" signature="585:653" ph="SELECT to_ch... dual" />
+            <marker date="1534247379583" expanded="true" signature="1057:1063" ph="SELECT DISTI... GRH_RELEVE_HEURE_TEMP" />
+            <marker date="1534247379583" expanded="true" signature="1057:1083" ph="SELECT * FRO... GRH_AADDA001" />
+            <marker date="1534247379583" expanded="true" signature="1232:1258" ph="SELECT * FRO... GRH_AMIOS001" />
+            <marker date="1534247379583" expanded="true" signature="2033:2065" ph="SELECT * FRO... GRH_ADMINISTRATION" />
+            <marker date="1534247379583" expanded="true" signature="2218:2245" ph="SELECT * FRO... GRH_TECHNIQUE" />
+            <marker date="1534247379583" expanded="true" signature="2432:2555" ph="SELECT * FRO... GRH_INTERVENANT" />
+            <marker date="1534247379583" expanded="true" signature="2776:2899" ph="SELECT * FRO... GRH_INTERVENANT" />
+            <marker date="1534247379583" expanded="true" signature="3069:3200" ph="SELECT * FRO... GRH_INTERVENANT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
