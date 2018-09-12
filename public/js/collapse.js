@@ -1,4 +1,4 @@
-import $ from 'src/bootstrap/js/jquery'
+import $ from 'public/js/jquery'
 import Util from './util'
 
 /**

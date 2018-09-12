@@ -1,4 +1,28 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: Ghost
+ * Date: 31/08/2018
+ * Time: 14:28
+ */
+
+
+    session_start();
+
+    /*
+     * SI LA PERSONNE N'EST PAS AUTHENTIFIER
+     */
+    if(!isset($_SESSION['pseudo'])){
+        $_SESSION['error'] = 'Veuiilez vous connceter d\'abord';
+        echo "<script type='text/javascript'>document.location.replace('index.php');</script>";
+    }
+
+    if(isset($_POST['disconnect'])){
+
+        $_SESSION = array();
+        session_destroy();
+        echo "<script type='text/javascript'>document.location.replace('index.php');</script>";
+    }
 
     /*
     * CONNEXION A ORACLE
@@ -9,7 +33,7 @@
     try{
         $conn = new PDO("oci:dbname=".$tns,$db_username,$db_password);
     }catch(PDOException $e){
-        echo ($e->getMessage());
+        die("Impossible de se connecter au serveur !");
     }
 
     if (isset($_POST['update']))

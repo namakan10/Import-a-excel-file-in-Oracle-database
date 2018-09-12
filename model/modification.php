@@ -2,6 +2,7 @@
     if(isset($_POST['modifier'])){
 
 
+
         /*
          * RECUPERATION DE L'ID
          */
@@ -43,7 +44,7 @@
         }
 
         //MODIFICATION DU NUMERO PROJET
-        else if ($_POST['select']=='Num_PROJ'){
+        else if ($_POST['select']=='Numéro de projet'){
             $pers = $_SESSION['PERS_ID'];
             $_SESSION['modif'] = $_POST['modif'];
 
@@ -71,26 +72,6 @@
             }
 
 
-
-        }
-
-        //MODIFICATION DE LA PHASE
-        else if ($_POST['select']=='Phase'){
-            $query = $conn ->prepare('UPDATE GRH_RELEVE_HEURE_TEMP SET PHASE = :modif WHERE COL_ID = :id');
-            $query->execute(array(
-
-                'modif' => $_POST['modif'],
-                'id' => $id,
-            ));
-
-            $query = $conn ->prepare('UPDATE GRH_RELEVE_ACTIVITE_TEMP SET PHASE = :modif WHERE COL_ID = :id');
-            $query->execute(array(
-
-                'modif' => $_POST['modif'],
-                'id' => $id,
-            ));
-
-            $_SESSION['update'] = "Modification effectué avec success !";
 
         }
 
@@ -170,6 +151,6 @@
 
         $_SESSION['validate'] = 'ok';
         $_SESSION['modif'] = 'ok';
-        echo "<script type='text/javascript'>document.location.replace('import.php');</script>";
+        echo "<script type='text/javascript'>document.location.replace('dashboard.php');</script>";
 
     }

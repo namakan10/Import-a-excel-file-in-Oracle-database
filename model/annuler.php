@@ -8,7 +8,9 @@
     }
 
 
-    //Connexion à oracle
+    /*
+     * Connexion à ORACLE
+     */
     $tns = "(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.3.221)(PORT = 1522)))(CONNECT_DATA =(SERVICE_NAME = prodp)))";
     $db_username = "grhowner";
     $db_password = "grhowner";
@@ -18,11 +20,12 @@
         echo ($e->getMessage());
     }
 
-    $conn->exec("DELETE FROM GRH_RELEVE_GT_TEMP");
-
+    /*
+     * Efface les données des tables temporaires
+     */
     $conn->exec("DELETE FROM GRH_RELEVE_HEURE_TEMP");
 
     $conn->exec("DELETE FROM GRH_RELEVE_ACTIVITE_TEMP");
     $_SESSION['effectue'] = 'non';
 
-    echo "<script type='text/javascript'>document.location.replace('import.php');</script>";
+    echo "<script type='text/javascript'>document.location.replace('../dashboard.php');</script>";
