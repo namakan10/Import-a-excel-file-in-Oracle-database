@@ -26,6 +26,6 @@
     $conn->exec("DELETE FROM GRH_RELEVE_HEURE_TEMP");
 
     $conn->exec("DELETE FROM GRH_RELEVE_ACTIVITE_TEMP");
-    $_SESSION['effectue'] = 'non';
+    $_SESSION['upload'] = false;
 
     echo "<script type='text/javascript'>document.location.replace('../dashboard.php');</script>";

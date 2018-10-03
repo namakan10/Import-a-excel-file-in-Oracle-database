@@ -35,7 +35,7 @@
                 /*
                  * VERIFCATION SI LA DATE SELECTIONNER EST SUPERIEURE A LA ACTUELLE OU SI C'EST LA MEME DATE AVEC NUMERO DE PROJET DIFFERENT
                  */
-                $datemax  = DateTime::createFromFormat('d/m/y', $datemax);
+                $datemax  = DateTime::createFromFormat('d/m/y', $datemax0);
                 $date  = DateTime::createFromFormat('d/m/y', $dt);
 
 
@@ -171,7 +171,7 @@
                         /*
                          * RECUPERATION DES PROJETS CONCERNANT CETTE DATE ET ON LE COMPARE AVEC CE QU'ON VEUT INSERSER
                          */
-                        $req = $conn->query("SELECT NO_PROJ, DESCRIPTION FROM GRH_RELEVE_ACTIVITE WHERE PERS_ID = '$pers' AND DATE_JOUR = '$datemax' ");
+                        $req = $conn->query("SELECT NO_PROJ, DESCRIPTION FROM GRH_RELEVE_ACTIVITE WHERE PERS_ID = '$pers' AND DATE_JOUR = '$datemax0' ");
 
                         while($donne = $req->fetch()){
                             $description = str_replace("'", "''", $donne['DESCRIPTION']);

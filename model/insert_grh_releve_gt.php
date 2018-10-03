@@ -3,7 +3,7 @@
     /*
      * ON RECUPERE LES HEURES DANS LA TABLE TEMPORAIRE RELEVE HEURE
      */
-    $req = $conn->query("SELECT * FROM GRH_RELEVE_HEURE_TEMP ORDER BY WEEKNO");
+    $requete = $conn->query("SELECT * FROM GRH_RELEVE_HEURE_TEMP ORDER BY WEEKNO");
 
     /*
      * DEFINITION DE CERTAINES VARIABLES POUR LES UTILISES DANS LA BOUCLES
@@ -15,11 +15,12 @@
     $checklastweek = true;
 
 
-    while($donnee = $req->fetch() OR $autorise==true){
+    while($donnee = $requete->fetch() OR $autorise==true){
 
         /*
          * S'IL Y A DES DONNES DANS LA TABLE TEMPORAIRE RELEVE HEURE ALORS
          */
+
         if(!empty($donnee)){
 
             $pers = $donnee['PERS_ID'];
@@ -27,7 +28,7 @@
 
             $lastweekno = null;
             if($checklastweek == true){
-                $req = $conn->query("SELECT MAX(NO) FROM GRH_RELEVE_GT WHERE ANNEE='$year' AND PERS_ID = '$pers'");
+                $req = $conn->query("SELECT MAX(WEEKNO) FROM GRH_RELEVE_GT WHERE ANNEE='$year' AND PERS_ID = '$pers'");
                 $result = $req->fetch();
                 $lastweekno = $result[0];
                 $checklastweek = false;
@@ -57,15 +58,13 @@
                         $heures_reg = 8;
                     }
                     else{
-                        if($donnee['HREG'] = ".5"){
+                        if((float)($donnee['HREG']) == ".5"){
                             $heures_reg = 0.5;
                         }
                         else{
                             $heures_reg = (float)($donnee['HREG']);
                         }
-
                     }
-
                     if((float)($donnee['HSUPP']) - 8 > 0){
                         $heures_sup = (float)($donnee['HSUPP']) - 8;
                     }
@@ -128,11 +127,6 @@
                     $weekdate = $dimanche->format('d/m/y');
 
                     $heure_tot = $heures_reg+$heures_sup;
-
-
-
-
-
                     $heures_reg = str_replace('.', ',', $heures_reg);
                     $heures_sup = str_replace('.', ',', $heures_sup);
                     $heure_tot = str_replace('.', ',', $heure_tot);
@@ -150,14 +144,12 @@
                 else{
                     $heures_reg = (float)($donnee['HREG']);
                 }
-
                 if((float)($donnee['HSUPP']) - 8 > 0){
                     $heures_sup = (float)($donnee['HSUPP']) - 8;
                 }
                 else{
                     $heures_sup = 0;
                 }
-
             }
 
         }

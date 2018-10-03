@@ -31,7 +31,7 @@
         $aut = true;
     }*/
 
-    $annee = date_parse($date[0]);
+    $annee = date_parse($moment);
     $year = $annee['year'];
 
     $phase='00';

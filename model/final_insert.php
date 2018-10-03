@@ -48,5 +48,5 @@
                                       VALUES('$num','$dt', '$Num_Projet', '$phase', '$aff', '$pers', '$Compte_Rendu', '$year', '$week', '$pers')");
     }
     $conn->exec("DELETE FROM GRH_RELEVE_ACTIVITE_TEMP");
-    $_SESSION['upload'] = 'non';
+    $_SESSION['upload'] = false;
     $_SESSION['update'] = 'Les données ont été importées avec succes';
