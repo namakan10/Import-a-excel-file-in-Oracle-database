@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edbf715c-a4f9-40ae-822a-215e288aed18" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="edbf715c-a4f9-40ae-822a-215e288aed18" name="Default" comment="v.1.0">
+      <change afterPath="$PROJECT_DIR$/correspondence_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/add_correspondence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/correspondence_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/delete_correspondance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_correspondence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/correspondence_listView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/modal_delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/new_correspondenceView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/annuler.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/annuler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/alert.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/alert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/extraction_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/extraction_data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/final_insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/final_insert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/insert_grh_releve_activite_&amp;_heure.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/insert_grh_releve_activite_&amp;_heure.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/insert_grh_releve_gt.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/insert_grh_releve_gt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/insert_in_temp_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/insert_in_temp_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/modification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/suppression.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/delete_line.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/dashboardView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/dashboardView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/edit_profil_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/edit_profil_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/entete-modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/entete-modification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/upload_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/upload_area.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,40 +33,59 @@
   <component name="ComposerSettings" doNotAsk="true">
     <executablePath>composer</executablePath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1098373115">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="13" />
+          <entry key="new_correspondance" value="1" />
+          <entry key="php" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="13" />
+          <entry key="PHP" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="772" />
+          <entry key="php" value="3356" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="772" />
+          <entry key="PHP" value="3356" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
     </session>
@@ -61,10 +93,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/insert_in_temp_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/insert_grh_releve_gt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2227">
+              <caret line="131" column="67" selection-start-line="131" selection-start-column="67" selection-end-line="131" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/insert_grh_releve_activite_&amp;_heure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1754">
-              <caret line="127" column="17" lean-forward="true" selection-start-line="126" selection-start-column="36" selection-end-line="127" selection-end-column="17" />
+            <state relative-caret-position="3485">
+              <caret line="205" column="9" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -72,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/extraction_data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1577">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state relative-caret-position="443">
+              <caret line="145" column="14" lean-forward="true" selection-start-line="141" selection-start-column="8" selection-end-line="145" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -96,28 +146,26 @@
       <find>update</find>
       <find>autorisation</find>
       <find>valid</find>
+      <find>erreuraffec</find>
+      <find>validate</find>
+      <find>supprimer</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\Import_database</dir>
+      <dir>C:\xampp\htdocs\Import-a-excel-file-in-Oracle-database</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="N@m@kan" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/convert.php" />
-        <option value="$PROJECT_DIR$/authentification_login.php" />
-        <option value="$PROJECT_DIR$/extraction_data.php" />
-        <option value="$PROJECT_DIR$/insert_grh_releve_heure.php" />
-        <option value="$PROJECT_DIR$/insert_grh_releve_activite.php" />
-        <option value="$PROJECT_DIR$/insert_grh_releve_gt.php" />
-        <option value="$PROJECT_DIR$/src/bootstrap/css/style.css" />
-        <option value="$PROJECT_DIR$/src/query/modification/modification.php" />
-        <option value="$PROJECT_DIR$/import.php" />
-        <option value="$PROJECT_DIR$/src/traitement/authentification_login.php" />
         <option value="$PROJECT_DIR$/src/traitement/update_login.php" />
         <option value="$PROJECT_DIR$/src/query/insert/final_insert.php" />
         <option value="$PROJECT_DIR$/src/query/insert/extraction_data.php" />
@@ -136,28 +184,39 @@
         <option value="$PROJECT_DIR$/public/css/table_style.css" />
         <option value="$PROJECT_DIR$/.gitignonre" />
         <option value="$PROJECT_DIR$/public/js/bootstrap-filestyle.min.js" />
-        <option value="$PROJECT_DIR$/view/entete-modification.php" />
-        <option value="$PROJECT_DIR$/model/suppression.php" />
         <option value="$PROJECT_DIR$/view/nav_bar.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
-        <option value="$PROJECT_DIR$/view/edit_profil_view.php" />
         <option value="$PROJECT_DIR$/edit_profil.php" />
         <option value="$PROJECT_DIR$/model/update_login.php" />
         <option value="$PROJECT_DIR$/model/insert_grh_releve_heure.php" />
         <option value="$PROJECT_DIR$/model/insert_grh_releve_activite.php" />
-        <option value="$PROJECT_DIR$/view/upload_area.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/LoginView.php" />
         <option value="$PROJECT_DIR$/model/convert_xlsm_to_csv.php" />
-        <option value="$PROJECT_DIR$/view/dashboardView.php" />
-        <option value="$PROJECT_DIR$/model/insert_in_temp_table.php" />
         <option value="$PROJECT_DIR$/model/login_query.php" />
-        <option value="$PROJECT_DIR$/model/extraction_data.php" />
         <option value="$PROJECT_DIR$/model/annuler.php" />
-        <option value="$PROJECT_DIR$/model/modification.php" />
-        <option value="$PROJECT_DIR$/model/insert_grh_releve_activite_&amp;_heure.php" />
         <option value="$PROJECT_DIR$/model/insert_grh_releve_gt.php" />
+        <option value="$PROJECT_DIR$/model/suppression.php" />
+        <option value="$PROJECT_DIR$/new_correspondence.php" />
+        <option value="$PROJECT_DIR$/model/add_correspondence.php" />
+        <option value="$PROJECT_DIR$/view/correspondance_listView.php" />
+        <option value="$PROJECT_DIR$/correspondence_list.php" />
+        <option value="$PROJECT_DIR$/model/correspondence_list.php" />
+        <option value="$PROJECT_DIR$/view/new_correspondenceView.php" />
+        <option value="$PROJECT_DIR$/view/correspondence_listView.php" />
+        <option value="$PROJECT_DIR$/view/entete-modification.php" />
+        <option value="$PROJECT_DIR$/view/modal_delete.php" />
+        <option value="$PROJECT_DIR$/view/upload_area.php" />
+        <option value="$PROJECT_DIR$/model/insert_grh_releve_activite_&amp;_heure.php" />
+        <option value="$PROJECT_DIR$/model/alert.php" />
+        <option value="$PROJECT_DIR$/view/dashboardView.php" />
+        <option value="$PROJECT_DIR$/model/delete_line.php" />
         <option value="$PROJECT_DIR$/model/final_insert.php" />
+        <option value="$PROJECT_DIR$/model/modification.php" />
+        <option value="$PROJECT_DIR$/model/delete_correspondance.php" />
+        <option value="$PROJECT_DIR$/view/edit_profil_view.php" />
+        <option value="$PROJECT_DIR$/model/extraction_data.php" />
+        <option value="$PROJECT_DIR$/model/insert_in_temp_table.php" />
       </list>
     </option>
   </component>
@@ -169,7 +228,7 @@
   </component>
   <component name="PhpServers">
     <servers>
-      <server host="localhost" id="6f4e4b5b-6b3f-4eb3-b2ec-ad590e0cd524" name="Apache" />
+      <server host="localhost" id="6f4e4b5b-6b3f-4eb3-b2ec-ad590e0cd524" name="Apache" port="8080" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP on Xampp" />
@@ -185,6 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,16 +257,10 @@
               <item name="Import-a-excel-file-in-Oracle-database" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Import-a-excel-file-in-Oracle-database" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Import-a-excel-file-in-Oracle-database" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,15 +272,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Import_database\src\query" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Import-a-excel-file-in-Oracle-database\model" />
       <recent name="C:\xampp\htdocs\Import-a-excel-file-in-Oracle-database\view" />
       <recent name="C:\xampp\htdocs\Import-a-excel-file-in-Oracle-database" />
       <recent name="C:\xampp\htdocs\Import-a-excel-file-in-Oracle-database\controller" />
       <recent name="C:\xampp\htdocs\Import-a-excel-file-in-Oracle-database\public" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Import_database\src\query" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,12 +438,25 @@
       <workItem from="1537726946146" duration="1852000" />
       <workItem from="1537791068233" duration="289000" />
       <workItem from="1538078705971" duration="12864000" />
-      <workItem from="1538548683365" duration="2088000" />
+      <workItem from="1538548683365" duration="2933000" />
+      <workItem from="1538989090043" duration="15504000" />
+      <workItem from="1539073767106" duration="8191000" />
+      <workItem from="1539246362537" duration="99000" />
+      <workItem from="1539253852678" duration="602000" />
+      <workItem from="1539332705693" duration="1849000" />
     </task>
+    <task id="LOCAL-00001" summary="v.1.0">
+      <created>1538553247201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538553247201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="460223000" />
+    <option name="totallyTimeSpent" value="487313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,15 +468,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3260212" />
+      <window_info anchor="top" id="Database" order="0" weight="0.32993197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27827382" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -417,14 +485,13 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5060514" side_tool="true" weight="0.19344263" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32786885" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49394855" weight="0.19407895" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +499,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -445,26 +516,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/IWriter.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="766" column="9" selection-start-line="766" selection-start-column="9" selection-end-line="766" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Iterator.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date_c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="413" column="20" selection-start-line="413" selection-start-column="20" selection-end-line="413" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insert_all" />
-    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php" />
     <entry file="file://$PROJECT_DIR$/succes_import_redirect.php" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -521,31 +572,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/traitement/authentification_login.php" />
     <entry file="file://$PROJECT_DIR$/src/traitement/update_login.php" />
-    <entry file="file://$PROJECT_DIR$/model/suppression.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bootstrap-filestyle.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="1003" selection-start-line="22" selection-start-column="1003" selection-end-line="22" selection-end-column="1003" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit_profil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/update_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -556,27 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/edit_profil_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/LoginView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="44" column="114" selection-start-line="44" selection-start-column="114" selection-end-line="44" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/upload_area.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -584,60 +593,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/convert_xlsm_to_csv.php">
+    <entry file="file://$PROJECT_DIR$/model/insert_grh_releve_heure.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_profil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/insert_grh_releve_heure.php" />
+    <entry file="file://$PROJECT_DIR$/new_correspondance" />
+    <entry file="file://$PROJECT_DIR$/view/LoginView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="44" column="114" selection-start-line="44" selection-start-column="114" selection-end-line="44" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/alert.php">
+    <entry file="file://$PROJECT_DIR$/correspondence_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_correspondence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/entete-modification.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="61" column="86" selection-start-line="61" selection-start-column="86" selection-end-line="61" selection-end-column="86" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/login_query.php">
+    <entry file="file://$PROJECT_DIR$/view/upload_area.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="-154">
+          <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/insert_grh_releve_gt.php">
+    <entry file="file://$PROJECT_DIR$/view/modal_delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="131" column="67" selection-start-line="131" selection-start-column="67" selection-end-line="131" selection-end-column="67" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/final_insert.php">
+    <entry file="file://$PROJECT_DIR$/view/new_correspondenceView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="391">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/insert_in_temp_table.php">
+    <entry file="file://$PROJECT_DIR$/view/correspondence_listView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+        <state relative-caret-position="63">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -648,38 +675,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/correspondence_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/login_query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/update_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/add_correspondence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/modification.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
-          <folding>
-            <element signature="e#1665#5189#0#PHP" />
-            <element signature="e#2848#5189#0#PHP" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/dashboardView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="45" />
+        <state relative-caret-position="153">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/model/alert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/delete_line.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/delete_correspondance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/edit_profil_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/convert_xlsm_to_csv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/final_insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="51" column="68" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="68" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/extraction_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1577">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        <state relative-caret-position="443">
+          <caret line="145" column="14" lean-forward="true" selection-start-line="141" selection-start-column="8" selection-end-line="145" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/insert_grh_releve_activite_&amp;_heure.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1754">
-          <caret line="127" column="17" lean-forward="true" selection-start-line="126" selection-start-column="36" selection-end-line="127" selection-end-column="17" />
+        <state relative-caret-position="3485">
+          <caret line="205" column="9" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/insert_grh_releve_gt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="67" selection-start-line="131" selection-start-column="67" selection-end-line="131" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/insert_in_temp_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>

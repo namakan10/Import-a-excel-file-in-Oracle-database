@@ -3,9 +3,6 @@
     <a class="btn btn-primary" data-toggle="collapse" href="#modif" role="button" aria-expanded="false" aria-controls="modif">
         Modifier une ligne
     </a>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#supprimer" aria-expanded="false" aria-controls="supprimer">
-        Supprimer une ligne
-    </button>
     <a class="btn btn-primary" href="model/annuler.php">
         Annuler
     </a>
@@ -48,23 +45,3 @@
         </form>
     </div>
 </div>
-
-
-<div class="collapse multi-collapse" id="supprimer">
-    <h2 style="text-align: center">Suppression</h2>
-    <div class="card card-body">
-        <form method="post">
-            <fieldset>
-                <div class="form-group">
-                    <div class="form-group row">
-                        <label for="date" class="col-sm-2 col-form-label">ID du champ à supprimer</label>
-                        <div class="col-sm-10">
-                            <input class="form-control" id="date" type="text" name="id_supp">
-                        </div>
-                    </div>
-                <button type="submit" class="btn btn-primary" name="supprimer">Supprimer</button>
-            </fieldset>
-        </form>
-    </div>
-</div>
-

@@ -49,4 +49,4 @@
     }
     $conn->exec("DELETE FROM GRH_RELEVE_ACTIVITE_TEMP");
     $_SESSION['upload'] = false;
-    $_SESSION['update'] = 'Les données ont été importées avec succes';
+    $_SESSION['update'] = 'Les données ont été importées avec succès';

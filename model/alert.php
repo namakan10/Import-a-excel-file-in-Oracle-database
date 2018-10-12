@@ -19,10 +19,3 @@ if(isset($_SESSION ['update'])){
         $_SESSION ['update'] = null;
     }
 }
-
-if(isset($_SESSION ['erreuraffec'])){
-    if($_SESSION ['erreuraffec'] != null){
-        $erreuraffec = $_SESSION ['erreuraffec'];
-        $_SESSION ['erreuraffec'] = null;
-    }
-}

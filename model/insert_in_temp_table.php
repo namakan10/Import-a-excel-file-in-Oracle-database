@@ -39,12 +39,6 @@
     $membres = $conn->query("SELECT PRENOM, NOM FROM GRH_PERSONNE WHERE STATUT_EMPLOYE ='A' AND CAT_PERS IS NULL OR CAT_PERS = 'E' ORDER BY NOM");
 
 
-    $_SESSION['validate'] = 'false';
-    if(isset($_SESSION['modif']) OR isset($_SESSION['supprimer'])){
-        $_SESSION['validate'] = 'ok';
-    }
-
-
     /*
      * TRAITEMENT APRES L'UPLOAD DU FICHIER
      */
@@ -57,8 +51,8 @@
 
         //Les prenoms composés
         $string = $_FILES['file']['name'];
-        $var1 = array("é", "è", "à", "ç", "Nene", "Diariata");
-        $var2 = array("e", "e", "a", "c", "NENE SATOUROU", "DIARIATA ANNA");
+        $var1 = array("é", "è", "à", "ç", "Nene", "Diariata", "Oumar");
+        $var2 = array("e", "e", "a", "c", "NENE SATOUROU", "DIARIATA ANNA", "SEYDINA OUMAR");
         $string = str_replace($var1, $var2, $string);
 
 
@@ -108,6 +102,20 @@
             $file = $_FILES['file']['tmp_name'];
             require "model/convert_xlsm_to_csv.php";
 
+
+
+            /*
+             * Verification si le fichier csv généré n'est pas vide. S'il est vide ça veut dire que le mois sélectionner
+             * n'est pas renseigner sur le relévé.
+             */
+            if(filesize('public/temp/temp.csv') <= 3){
+                ?>
+                <p>Le mois séléctionner n'est pas renseigné sur le relévé ! <a href="dashboard.php">Veuillez recommencer !</a></p>
+
+                <?php
+                $_SESSION['effectue'] = 'non';
+                die();
+            }
 
 
             /*
